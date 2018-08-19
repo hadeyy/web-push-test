@@ -1,4 +1,6 @@
 var config = {
+    apiKey: 'AIzaSyCc3480B8OlhNiT0XpsQt958_Pstm06Xyw',
+    projectId: 'web-push-test-935e3',
     messagingSenderId: "705688537739"
 };
 firebase.initializeApp(config);
