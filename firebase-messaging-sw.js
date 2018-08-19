@@ -2,6 +2,8 @@ importScripts('https://www.gstatic.com/firebasejs/4.1.3/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/4.1.3/firebase-messaging.js');
 
 var config = {
+    apiKey: 'AIzaSyCc3480B8OlhNiT0XpsQt958_Pstm06Xyw',
+    projectId: 'web-push-test-935e3',
     messagingSenderId: "705688537739"
 };
 firebase.initializeApp(config);
