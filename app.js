@@ -5,6 +5,8 @@ firebase.initializeApp(config);
 
 const messaging = firebase.messaging();
 
+resetUI();
+
 if ('granted' === Notification.permission) {
     getToken();
 }
