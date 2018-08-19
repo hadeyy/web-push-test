@@ -8,13 +8,28 @@
 </head>
 <body>
     <button type="button" id="subscribe">SUBSCRIBE</button>
+    <button type="button" id="unsubscribe">UNSUBSCRIBE</button>
 
-    <link rel="manifest" href="/manifest.json">
+    <hr>
 
-    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+    <form action="" id="notificationForm">
+        <input type="text" name="title" id="title" value="Test title">
+        <label for="title">Notification title</label>
+
+        <input type="text" name="body" id="body" value="Test body">
+        <label for="body">Notification message</label>
+
+        <input type="text" name="icon" id="icon" value="https://cdn4.iconfinder.com/data/icons/time-24/24/bellalarmnotificationsecurity_ic_name_of_icon_24px-512.png">
+        <label for="icon">URL to notification icon</label>
+
+        <input type="text" name="click_action" id="click_action" value="https://media1.tenor.com/images/ea9df861113fecec5bb17bf1faa0124e/tenor.gif?itemid=3950966">
+        <label for="click_action">Target URL for click action</label>
+
+        <button type="submit">SEND</button>
+    </form>
+
     <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-messaging.js"></script>
-    <!--<script type="text/javascript" src="/firebase_subscribe.js"></script>-->
-    <script type="text/javascript" src="/app.js"></script>
+    <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
